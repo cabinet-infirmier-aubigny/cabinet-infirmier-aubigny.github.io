@@ -23,6 +23,16 @@ Toute modification poussée sur `main` est en ligne après 1 à 2 minutes.
 Nom de domaine propre (ex. `cabinet-infirmier-aubigny.fr`, environ 10 €/an) : à déclarer dans
 *Settings → Pages → Custom domain*. L'hébergement reste gratuit.
 
+## Domaine et DNS (OVHcloud)
+
+- Domaine `cabinet-infirmier-aubigny.fr`, titulaire SCM Infirmières d'Aubigny, payé jusqu'en octobre 2029
+  (renouvellement ensuite 7,79 € HT/an). Compte OVH : infadom.aubigny85@orange.fr.
+- Zone DNS : 4 A (185.199.108-111.153), 4 AAAA (2606:50c0:8000-8003::153), CNAME `www` → `cabinet-infirmier-aubigny.github.io.`,
+  plus les NS, SPF et MX d'OVH (compte mail Zimbra).
+- **Ne jamais supprimer** la ligne TXT `_github-pages-challenge-cabinet-infirmier-aubigny` : elle prouve à GitHub
+  que le domaine appartient à l'organisation (domaine vérifié).
+- GitHub Pages : domaine personnalisé déclaré (fichier `CNAME`), HTTPS forcé.
+
 ## À compléter avant la mise en ligne
 
 - [ ] Photos des 4 infirmières : déposer `images/prenom.jpg` (format carré) et remplacer
