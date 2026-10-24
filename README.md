@@ -15,7 +15,7 @@ images/                photos du cabinet
 
 ## Hébergement
 
-Site en ligne : **https://cabinet-infirmier-aubigny.github.io/**
+Site en ligne : **https://cabinet-infirmier-aubigny.fr/** (domaine OVHcloud, titulaire SCM Infirmières d'Aubigny ; l'adresse cabinet-infirmier-aubigny.github.io redirige vers le .fr)
 
 Hébergé gratuitement par GitHub Pages (*Settings → Pages* : branche `main`, dossier `/ (root)`).
 Toute modification poussée sur `main` est en ligne après 1 à 2 minutes.
